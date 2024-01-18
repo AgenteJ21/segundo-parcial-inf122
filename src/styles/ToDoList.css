@@ -1,0 +1,72 @@
+:root{
+    --sm:16px;
+    --md:20px;
+    --lg:40px;
+    --white: #FFFFFF;
+    --green: #1C9675;
+    --red:#B2324A;
+}
+h1{
+    font-family: 'Overpass', sans-serif;
+    color: var(--white);
+    font-size: var(--lg);
+    
+}
+.subcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.check-count{
+    display: flex;
+    width: 720px;
+    justify-items: center;
+    align-items: flex-start;
+    align-self: stretch;
+    position: relative;
+    left: 27.5%;
+}
+h2{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: var(--sm);
+    background-color: var(--white);
+    border-radius: 10px;
+    text-align: start;
+}
+input{
+    width: 580px;
+    padding: 10px;
+    font-size: var(--md);
+    border-radius: 10px;
+}
+
+.btn-add{
+    width: 95px;
+    padding: 10px;
+    font-size: var(--md);
+    border-radius: 10px;
+    background-color: var(--green);
+    color: var(--white);
+}
+.new-todo{
+    display: flex;
+    width: 660px;
+    padding: var(--md);
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.delete img{
+    max-width: 20px;
+    max-height: 20px;
+}
+.check{
+    max-width: 40px;
+    max-height: 40px;
+}
